@@ -1,0 +1,28 @@
+{
+    "extends": "standard",
+    "rules": {
+        "comma-dangle": [
+            "error",
+            "always-multiline"
+        ],
+        "padding-line-between-statements": [
+            "error",
+            {
+                "blankLine": "always",
+                "next": "*",
+                "prev": "*"
+            }
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "sort-keys": [
+            "error",
+            "asc",
+            {
+                "natural": true
+            }
+        ]
+    }
+}

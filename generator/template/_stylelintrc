@@ -1,0 +1,4 @@
+{
+    "customSyntax": "postcss-html",
+    "rules": {}
+}

@@ -1,6 +1,6 @@
 {
     "name": "vue-cli-plugin-stylelintrc",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "stylelint plugin for vue-cli",
     "main": "index.js",
     "repository": {

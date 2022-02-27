@@ -10,8 +10,8 @@ module.exports = (api, options) => {
       const { resolveModule } = require('@vue/cli-shared-utils')
 
       const stylelintOptions = {
-        emitError: lintOnSave === 'error',
-        emitWarning: lintOnSave === true || lintOnSave === 'warning',
+        emitError: !(lintOnSave === true || lintOnSave === 'warning'),
+        emitWarning: lintOnSave === 'error',
         extensions: ['.css', '.htm', '.html', '.less', '.sass', '.scss', '.sss', '.vue'],
         files: ['**/*.{vue,htm,html,css,sss,less,scss,sass}'],
         formatter: require('stylelint-codeframe-formatter'),
